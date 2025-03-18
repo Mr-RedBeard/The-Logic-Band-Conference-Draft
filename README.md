@@ -78,10 +78,16 @@ The update rule for the Logic Band weight matrix L can be described as:
   L(t+1)=α⋅L(t)+β⋅∇Lℒ		(2)
   
 Where:
+
+
 •	L(t) - is the Logic Band weight matrix at time step t.
+
 •	L(t+1) - is the updated Logic Band weight matrix after applying the gradient update.
+
 •	α - is the momentum term, a hyperparameter that controls how much of the previous update is retained (like traditional momentum-based updates in neural networks).
+
 •	β - is the learning rate for the Logic Band, which controls how fast the weights adjust to new information.
+
 •	∇Lℒ - is the gradient of the loss function ℒ with respect to the Logic Band weights.
 
    The momentum term α ensures that the Logic Band weights do not change too abruptly, allowing the network to retain knowledge from earlier in the training process. This is particularly useful in preventing the network from making unstable or overly aggressive updates based on noisy or sparse data. The learning rate β is a key factor in determining the magnitude of updates to the Logic Band. A larger learning rate results in more significant weight changes, while a smaller rate allows for more subtle adjustments. The gradient ∇Lℒ reflects the necessary adjustments to the Logic Band weights to minimize the loss, guiding the model to focus on the most critical features. This dynamic update rule ensures that the Logic Band can learn to focus on the most relevant features during training while avoiding the potential pitfalls of overfitting or underfitting the data. It enables the model to continuously refine its understanding of which input features contribute most to the final prediction, thereby improving overall model performance.
