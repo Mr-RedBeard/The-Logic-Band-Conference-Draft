@@ -1,4 +1,4 @@
-The Logic Band©: A Novel Neural Network Design For Advancing Artificial Intelligence.
+#The Logic Band©: A Novel Neural Network Design For Advancing Artificial Intelligence.
 
 by Derek Smith
 
