@@ -52,10 +52,15 @@ Mathematically, the Logic Band mechanism can be expressed as:
 
 Where:
 
+
 •	W = is the weight matrix of the layer.
+
 •	L = is the Logic Band weight matrix, which is of the same size as W and is trained alongside the model's standard weights.
+
 •	x = is the input to the layer, which can be the previous layer’s output or the raw input data for the first layer.
+
 •	⊙ = denotes the Hadamard product (element-wise multiplication), allowing the Logic Band to dynamically scale each individual weight in W by the corresponding value in L.
+
 •	b = represents the bias term of the layer.
 
    The key difference in this approach is incorporating the Logic Band weight matrix L, which enables the model to dynamically adjust the importance of each input feature based on its relevance during training while still avoiding possible overfitting. This dynamic adjustment allows the network to more effectively capture complex feature interactions more effectively, particularly in datasets with noisy or subtle relationships, by emphasizing important features and down-weighting less relevant ones. As training progresses, the Logic Band learns which features should be prioritized for better model generalization.
