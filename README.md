@@ -1,4 +1,3 @@
-# The Logic Band Conference Draft
 The Logic Band©: A Novel Neural Network Design For Advancing Artificial Intelligence.
 
 by Derek Smith
