@@ -1,6 +1,6 @@
 #The Logic Band©: A Novel Neural Network Design For Advancing Artificial Intelligence.
 
-by Derek Smith
+by Derek Smith (dlsmith323@gmail.com)
 
 Abstract—  The Logic Band is a novel architecture that was inspired by combining neuroscience knowledge with data science. The resulting enhancement, that is designed to fit into any neural network, improves model performance by enabling the artificial intelligence to locate and evaluate complex feature relationships. The enhanced architecture is designed in a way produces exceptional improvement without significant computational resource cost. The following describes the theology and functionality in detail, while offering a new avenue of growth in the advancement of Artificial Intelligence. The conception of the idea through to proof of concept and architecture design throughout various neural networks. 
 
